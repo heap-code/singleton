@@ -6,6 +6,8 @@ package-lock.json
 # Do not ignore the rule configuration files
 !.*rc.json
 
+!.release-it.json
+
 !.github/
 !.github/workflows/ci.yml
 
@@ -15,3 +17,6 @@ package-lock.json
 !.vscode/launch.json
 !.vscode/settings.json
 !.vscode/tasks.json
+
+# Generated files
+CHANGELOG.md
