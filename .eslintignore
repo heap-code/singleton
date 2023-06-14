@@ -1,0 +1,15 @@
+node_modules/
+package-lock.json
+
+# Do not ignore the rule configuration files
+!.*rc.json
+
+!.github/
+!.github/workflows/ci.yml
+
+!.vscode/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/settings.json
+!.vscode/tasks.json
