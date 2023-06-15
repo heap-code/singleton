@@ -40,7 +40,8 @@
 	"es2015": "./dist/esm2015/index.js",
 	"homepage": "https://github.com/heap-code/singleton",
 	"keywords": [
-		"singleton"
+		"singleton",
+		"lazy"
 	],
 	"license": "MIT",
 	"main": "./dist/cjs/index.js",
@@ -69,5 +70,6 @@
 		"test:coverage": "npm run test -- --coverage",
 		"test:watch": "npm run test -- --watch"
 	},
+	"types": "./dist/types/index.js",
 	"version": "0.0.1"
 }
