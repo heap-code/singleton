@@ -4,9 +4,15 @@ on:
   pull_request:
     branches:
       - master
+  push:
+    branches:
+      - master
 
 jobs:
   checks:
+    # Ignore the heap-code bot commits
+    if: ${{ github.actor != vars.HC_BOT }}
+
     runs-on: ubuntu-latest
     strategy:
       matrix:

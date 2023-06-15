@@ -40,7 +40,8 @@
 	"es2015": "./dist/esm2015/index.js",
 	"homepage": "https://github.com/heap-code/singleton",
 	"keywords": [
-		"singleton"
+		"singleton",
+		"lazy"
 	],
 	"license": "MIT",
 	"main": "./dist/cjs/index.js",
@@ -55,6 +56,7 @@
 	},
 	"scripts": {
 		"build": "npm run build:cjs",
+		"build:all": "npm run build:cjs && npm run build:es2015 && npm run build:esm5 && npm run build:types",
 		"build:cjs": "npx tsc -p tools/tsconfigs/tsconfig.cjs.json",
 		"build:es2015": "npx tsc -p tools/tsconfigs/tsconfig.esm2015.json",
 		"build:esm5": "npx tsc -p tools/tsconfigs/tsconfig.esm5.json",
@@ -68,5 +70,6 @@
 		"test:coverage": "npm run test -- --coverage",
 		"test:watch": "npm run test -- --watch"
 	},
+	"types": "./dist/types/index.js",
 	"version": "0.0.1"
 }
