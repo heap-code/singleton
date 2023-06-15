@@ -59,7 +59,7 @@ jobs:
       - name: Clean for build
         run: rm -r dist/
       - name: Build
-        run: npm run build:cjs && npm run build:es2015 && npm run build:esm5 && npm run build:types
+        run: npm run build:all
 
       - name: Set npm config
         run: npm config set //registry.npmjs.org/:_authToken $NPM_TOKEN
