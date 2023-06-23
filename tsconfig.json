@@ -11,6 +11,7 @@
 		"noImplicitReturns": true,
 		"outDir": "./dist/node",
 		"removeComments": true,
+		"resolveJsonModule": true,
 		"rootDir": "./src",
 		"sourceMap": true,
 		"strict": true,

@@ -1,7 +1,8 @@
 {
 	"compilerOptions": {
 		"module": "ES2015",
-		"outDir": "../../dist/esm2015"
+		"outDir": "../../dist/esm2015",
+		"resolveJsonModule": false
 	},
 	"extends": "../../tsconfig.build.json"
 }
