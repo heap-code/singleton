@@ -34,7 +34,7 @@ this package can easily be used in browsers like this:
 >
 > ```html
 > <script
->  src="https://cdn.jsdelivr.net/npm/@heap-code/singleton@1.1.0/dist/bundles/singleton.umd.min.js"
+>  src="https://cdn.jsdelivr.net/npm/@heap-code/singleton@0.0.0/dist/bundles/singleton.umd.min.js"
 >  type="application/javascript"
 > ></script>
 > ```
