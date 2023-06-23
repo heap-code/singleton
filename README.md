@@ -15,6 +15,32 @@ Simply run:
 npm install @heap-code/singleton
 ```
 
+### CDN
+
+Thanks to [_jsdelivr_](https://www.jsdelivr.com/),
+this package can easily be used in browsers like this:
+
+```html
+<script
+ src="https://cdn.jsdelivr.net/npm/@heap-code/singleton/dist/bundles/singleton.umd.js"
+ type="application/javascript"
+></script>
+```
+
+> **Note:**  
+> It is recommended to use a minified and versioned bundle.
+>
+> For example:
+>
+> ```html
+> <script
+>  src="https://cdn.jsdelivr.net/npm/@heap-code/singleton@1.1.0/dist/bundles/singleton.umd.min.js"
+>  type="application/javascript"
+> ></script>
+> ```
+
+More at this [_jsdelivr_ package page](https://www.jsdelivr.com/package/npm/@heap-code/singleton).
+
 ## Usage
 
 Wrap a value that should only be calculated once and only when needed:
