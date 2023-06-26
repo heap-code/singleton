@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/heap-code/singleton/compare/v1.1.0...v1.1.1) (2023-06-26)
+
+
+### Bug Fixes
+
+* **npm:** fix types path ([1c039b5](https://github.com/heap-code/singleton/commit/1c039b5257f0739cfe8113da814ec7ff66d1d89e))
+
 # [1.1.0](https://github.com/heap-code/singleton/compare/v1.0.0...v1.1.0) (2023-06-23)
 
 
